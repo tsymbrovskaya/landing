@@ -203,6 +203,11 @@ body * {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.3);
 }
+.gallery-slider .slider-item {
+    width: 100%;
+
+}
+
 .gallery-subtitle .subtitle.active{
     color: #E3B873;
     text-decoration: underline;
@@ -245,9 +250,7 @@ body * {
 
 }
 .section-three .player{
-    width: 818px;
-    height: 434px;
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../images/image 6.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) );
     display: flex;
     align-items: center;
     justify-content: center;
@@ -255,11 +258,21 @@ body * {
     margin-top: -226px;
 
 }
+.player-background {
+    width: 100%;
+    filter: brightness(30%);
+
+}
+.play-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
 .player .play{
     background: #E3B873;
     box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
-    width: 85px;
-    height: 85px;
+    width: 86px;
+    height: 86px;
     border-radius: 50%;
     padding: 0;
     border: 0;
@@ -267,6 +280,9 @@ body * {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    position: absolute;
+    top: -43px;
+    left: -43px;
 
 }
 .play img{
@@ -277,6 +293,9 @@ body * {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.contact-form  .form form{
+    display: flex;
 }
 .text-break{
     margin-top: 62px;
@@ -334,12 +353,15 @@ body * {
     font-size: 13px;
     line-height: 27px;
 }
+.contact-form .button{
+    margin-left: 50px;
+}
 .contact-form .form{
     margin-top: 90px;
 }
 .contact-form .checkbox-group{
     display: flex;
-    justify-content: center;
+    justify-content: right;
     margin-top: 36px;
     font-family: 'Nunito Sans';
     font-size: 14px;
@@ -418,8 +440,9 @@ body * {
     margin-bottom: 0;
 }
 .white-fon{
+    position: relative;
     background-color:#FFFFFF;
-    margin-top: 294px;
+    margin-top: -128px;
     margin-left: 32px;
     margin-right: 32px;
     padding-left: 34px;
@@ -429,21 +452,9 @@ body * {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
 
 }
-.img-type-1{
-    background-image: url('../images/room1.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.img-type-2{
-    background-image: url('../images/room2.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.img-type-3{
-    background-image: url('../images/room3.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-
+.img-type img{
+    width: 100%;
+    display: block;
 }
 .img-types .button-price{
     font-weight: 400;
@@ -457,6 +468,7 @@ body * {
     margin-top: -27px;
     display: block;
     font-family: 'YesevaOne';
+    position: relative;
 }
 .section-four{
     background: #FFFFFF;
@@ -966,6 +978,14 @@ body * {
 }
 .footer-content{
     height: 134px;
+}
+
+.mobile {
+    display: none;
+}
+
+.mobile-grid {
+    display: none;
 }
 
 

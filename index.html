@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <title>Document</title>
 </head>
 <body>
@@ -59,7 +60,7 @@
                             market we have made happy more than 1000 families
                         </p>
                     </div>
-                    <div class="gallery-info grid grid-two-in-row">
+                    <div class="gallery-info grid grid-two-in-row desktop">
                         <div>
                             <h4>City:</h4>
                             <p>Rostov-on-Don
@@ -78,7 +79,7 @@
                             <p>Upon request</p>
                         </div>
                     </div>
-                    <div class="nav">
+                    <div class="nav desktop">
                         <img class="arrow-left" src="images/arrow.svg">
                         <div class="dot active"></div>
                         <div class="dot"></div>
@@ -89,14 +90,45 @@
 
                 </div>
                 <div class="gallery-right">
-                    <div class="gallery-subtitle">
+                    <div class="gallery-subtitle desktop">
                         <a class="subtitle active" href="#">Rostov-on-Don, Admiral</a>
                         <a class="subtitle" href="#">Sochi Thieves</a>
                         <a class="subtitle" href="#">Rostov-on-Don Patriotic</a>
                     </div>
-                    <div class="gallery-slider">
+                    <div class="gallery-slider desktop">
                         <img class="slider-item" src="images/image%202.1.jpg">
-
+                    </div>
+                    <div class="mobile mobile-slider">
+                        <div class="mobile-slider-container">
+                            <img class="mobile-slide" src="images/tvroom.png">
+                            <div class="button-container">
+                                <button class="slide-button">
+                                    <img src="images/min.png">
+                                </button>
+                                <button class="slide-button">
+                                    <img src="images/max.png">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-info grid grid-two-in-row mobile-grid">
+                        <div>
+                            <h4>City:</h4>
+                            <p>Rostov-on-Don
+                                LCD admiral</p>
+                        </div>
+                        <div>
+                            <h4>APARTMENT AREA:</h4>
+                            <p>81 m2</p>
+                        </div>
+                        <div>
+                            <h4>Repair time:</h4>
+                            <p>3.5 months</p>
+                        </div>
+                        <div>
+                            <h4>Repair Cost:</h4>
+                            <p>Upon request</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -111,108 +143,128 @@
         </div>
     </section>
     <section class="section-three">
-        <div class="container">
-            <div class="contact-form">
-                <div class="player">
-                    <button class="play">
-                        <img src="images/Polygon.png">
-                    </button>
-                </div>
-                <img class="text-break" src="images/Rectangle%206.9.png">
-                <p class="description">
-                    At each facility, a camera is installed that broadcasts the progress of work on the<br>
-                    clock. At any time, you can go to our website and monitor the progress of work in<br>
-                    your apartment. You can watch the live broadcast from one of our facilities!<br>
-                    Leave a request below and you will receive a link to the broadcast.
-                </p>
-                <div class="form">
-                    <form class="">
-                        <div class="form-row">
-                            <div class="input-group">
-                                <label class="label" for="name">Name</label>
-                                <input class="input" id="name" placeholder="What is your name:">
+        <div class="section-three-top">
+            <div class="container">
+                <div class="contact-form">
+                    <div class="player">
+                        <img class="player-background" src="images/image%206.png">
+                        <div class="play-container">
+                        <button class="play">
+                            <img src="images/Polygon.png">
+                        </button>
+                        </div>
+                    </div>
+                    <img class="text-break" src="images/Rectangle%206.9.png">
+                    <p class="description">
+                        At each facility, a camera is installed that broadcasts the progress of work on the<br>
+                        clock. At any time, you can go to our website and monitor the progress of work in<br>
+                        your apartment. You can watch the live broadcast from one of our facilities!<br>
+                        Leave a request below and you will receive a link to the broadcast.
+                    </p>
+                    <div class="form">
+                        <form class="">
+                            <div class="form-left">
+                            <div class="form-row">
+                                <div class="input-group">
+                                    <label class="label" for="name">Name</label>
+                                    <input class="input" id="name" placeholder="What is your name:">
+                                </div>
+                                <div class="input-group">
+                                    <label class="label" for="phone">Phone</label>
+                                    <input class="input" id="phone" placeholder="Your phone number:">
+                                </div>
                             </div>
-                            <div class="input-group">
-                                <label class="label" for="phone">Phone</label>
-                                <input class="input" id="phone" placeholder="Your phone number:">
+                            <div class="checkbox-group">
+                                <label for="agree">
+                                    <input id="agree" type="checkbox">
+                                    <span></span>
+                                    I agree to the processing of personal data
+                                </label>
+                            </div>
                             </div>
                             <input class="button button-orange" type="submit" value="Submit">
-                        </div>
-                        <div class="checkbox-group">
-                            <label for="agree">
-                                <input id="agree" type="checkbox">
-                                <span></span>
-                                I agree to the processing of personal data
-                            </label>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div class="contact-form-footer">
-                <h4>TYPES OF REPAIR</h4>
-                <div class="types-of-repair">
-                    <img src="images/Rectangle%206.7.png">
-                    <img src="images/hammer.png">
-                    <img src="images/Rectangle%206.8.png">
-                </div>
-            </div>
-            <div class="img-types">
-                <div class="img-type-1">
-                    <div class="white-fon">
-                        <h4 class="services">Redecorating</h4>
-                        <div class="list-of-services">
-                            <ul>
-                                <li>Dismantling of old coatings</li>
-                                <li>Wallpapering</li>
-                                <li>Painting walls and ceilings</li>
-                                <li>Laying flooring</li>
-                                <li>Replacing plumbing</li>
-                                <li>Replacing sockets and switches</li>
-                                <li>Replacing doors</li>
-                            </ul>
-                        </div>
+                        </form>
                     </div>
-                    <button class="button button-orange button-price">from 900 rub / m2</button>
-
-
-                </div>
-                <div class="img-type-2">
-                    <div class="white-fon">
-                        <h4 class="services">Overhaul</h4>
-                        <div class="list-of-services">
-                            <ul>
-                                <li>Dismantling of old coatings</li>
-                                <li>Wallpapering</li>
-                                <li>Painting walls and ceilings</li>
-                                <li>Laying flooring</li>
-                                <li>Replacing plumbing</li>
-                                <li>Replacing sockets and switches</li>
-                                <li>Replacing doors</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <button class="button button-orange button-price">from 1800 rub / m2</button>
-
-                </div>
-                <div class="img-type-3">
-                    <div class="white-fon">
-                        <h4 class="services">Designer Repair</h4>
-                        <div class="list-of-services">
-                            <ul>
-                                <li>Dismantling of old coatings</li>
-                                <li>Wallpapering</li>
-                                <li>Painting walls and ceilings</li>
-                                <li>Laying flooring</li>
-                                <li>Replacing plumbing</li>
-                                <li>Replacing sockets and switches</li>
-                                <li>Replacing doors</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <button class="button button-orange button-price">from 4000 rub / m2</button>
                 </div>
             </div>
         </div>
+        <div class="section-three-bottom">
+            <div class="container">
+                <div class="contact-form-footer">
+                    <h4>TYPES OF REPAIR</h4>
+                    <div class="types-of-repair">
+                        <img src="images/Rectangle%206.7.png">
+                        <img src="images/hammer.png">
+                        <img src="images/Rectangle%206.8.png">
+                    </div>
+                </div>
+                <div class="img-types">
+                    <div class="img-type">
+                        <img src="images/room1.jpg">
+                        <div class="white-fon">
+                            <h4 class="services">Redecorating</h4>
+                            <div class="list-of-services">
+                                <ul>
+                                    <li>Dismantling of old coatings</li>
+                                    <li>Wallpapering</li>
+                                    <li>Painting walls and ceilings</li>
+                                    <li>Laying flooring</li>
+                                    <li>Replacing plumbing</li>
+                                    <li>Replacing sockets and switches</li>
+                                    <li>Replacing doors</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="button button-orange button-price">from 900 rub / m2</button>
+
+
+                    </div>
+                    <div class="img-type">
+                        <img src="images/room2.jpg">
+                        <div class="white-fon">
+                            <h4 class="services">Overhaul</h4>
+                            <div class="list-of-services">
+                                <ul>
+                                    <li>Dismantling of old coatings</li>
+                                    <li>Wallpapering</li>
+                                    <li>Painting walls and ceilings</li>
+                                    <li>Laying flooring</li>
+                                    <li>Replacing plumbing</li>
+                                    <li>Replacing sockets and switches</li>
+                                    <li>Replacing doors</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="button button-orange button-price">from 1800 rub / m2</button>
+                    </div>
+                    <div class="img-type">
+                        <img src="images/room3.jpg">
+                        <div class="white-fon">
+                            <h4 class="services">Designer Repair</h4>
+                            <div class="list-of-services">
+                                <ul>
+                                    <li>Dismantling of old coatings</li>
+                                    <li>Wallpapering</li>
+                                    <li>Painting walls and ceilings</li>
+                                    <li>Laying flooring</li>
+                                    <li>Replacing plumbing</li>
+                                    <li>Replacing sockets and switches</li>
+                                    <li>Replacing doors</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="button button-orange button-price">from 4000 rub / m2</button>
+                    </div>
+                </div>
+                <div class="mobile design-title">
+                    <h3 class="title">
+                        We realize your
+                        wildest fantasies
+                    </h3>
+                </div>
+            </div>
+        </div>
+
     </section>
     <section class="section-four">
         <div class="container">
@@ -443,6 +495,20 @@
     <section class="section-seven">
         <div class="background-image">
             <div class="container">
+                <div class="mobile mobile-slider">
+                    <div class="mobile-slider-container">
+                        <img class="mobile-slide" src="images/mobile.png">
+                        <div class="button-container">
+                            <button class="slide-button">
+                                <img src="images/min.png">
+                            </button>
+                            <button class="slide-button">
+                                <img src="images/max.png">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="questions-container">
                     <div class="questions">
                             <h4 class="title">have any questions?</h4>
@@ -477,21 +543,26 @@
                             </form>
                         </div>
                     </div>
-                    <h4 class="address">
-                        Rostov-on-Don, Nansen St., 239 Shopping Center<br>
-                        Decorum Tel +7 (928) 768 32 29
-                    </h4>
-                    <div class="socials">
-                        <a class="socials-icon" href="#">
-                            <img src="images/email%20(1).png">
-                        </a>
-                        <a class="socials-icon" href="#">
-                            <img src="images/email%20(2).png">
-                        </a>
+                    <div class="mobile-reverse">
+                        <div class="address-and-socials">
+                            <h4 class="address">
+                                Rostov-on-Don, Nansen St., 239 Shopping Center<br class="desktop">
+                                Decorum Tel +7 (928) 768 32 29
+                            </h4>
+                            <div class="socials">
+                                <a class="socials-icon" href="#">
+                                    <img src="images/email%20(1).png">
+                                </a>
+                                <a class="socials-icon" href="#">
+                                    <img src="images/email%20(2).png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="map">
+                            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A17e9ee6367314aa97f9a510bb5052f2634f414bef93317350678377706713e1a&amp;source=constructor" width="100%" height="465px" frameborder="0"></iframe>
+                        </div>
                     </div>
-                    <div class="map">
-                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A17e9ee6367314aa97f9a510bb5052f2634f414bef93317350678377706713e1a&amp;source=constructor" width="100%" height="465px" frameborder="0"></iframe>
-                    </div>
+
                 </div>
             </div>
         </div>
